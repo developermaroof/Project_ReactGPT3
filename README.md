@@ -58,41 +58,61 @@ This is a fully responsive, production-ready website built with React that demon
 
 ## 📸 Screenshots
 
-> **📝 How to Add Screenshots:**
->
-> 1. Take screenshots of your website (desktop and mobile views)
-> 2. Create a `screenshots` folder in the root directory
-> 3. Save your screenshots with descriptive names:
->    - `desktop-home.png` - Desktop homepage view
->    - `desktop-features.png` - Desktop features section
->    - `mobile-home.png` - Mobile homepage view
->    - `mobile-menu.png` - Mobile menu view
-> 4. Update the image paths below to match your screenshot names
+### 🖥️ Desktop View
 
-### Desktop View
+#### Homepage
 
 ![Desktop Homepage](./screenshots/desktop-home.png)
-_Modern, clean homepage with gradient background and hero section_
+_Modern, clean homepage with gradient background and hero section featuring GPT-3 technology_
 
-![Desktop Features](./screenshots/desktop-features.png)
-_Features section showcasing key capabilities_
+#### What is GPT-3 Section
 
-### Mobile View
+![Desktop What is GPT-3](./screenshots/desktop-whatisgpt3.png)
+_Comprehensive overview of GPT-3 capabilities and features_
 
-![Mobile Homepage](./screenshots/mobile-home.png)
-_Fully responsive mobile layout_
+#### Case Studies Section
 
-![Mobile Menu](./screenshots/mobile-menu.png)
-_Smooth mobile navigation menu_
+![Desktop Case Studies](./screenshots/desktop-casestudies.png)
+_Showcasing real-world applications and use cases of GPT-3 technology_
+
+#### OpenAI Possibilities
+
+![Desktop OpenAI](./screenshots/desktop-openai.png)
+_Exploring the endless possibilities with OpenAI technology_
+
+#### Library/Blog Section
+
+![Desktop Library](./screenshots/desktop-library.png)
+_Featured articles and blog posts about AI and GPT-3 innovations_
 
 ---
 
-**💡 Screenshot Tips:**
+### 📱 Mobile View
 
-- Use browser DevTools to capture responsive views
-- Take screenshots at different breakpoints (mobile, tablet, desktop)
-- Showcase key sections: Header, Features, Blog, Footer
-- Use tools like [Screely](https://screely.com/) or [Mockuuups](https://mockuuups.studio/) for professional mockups
+#### Homepage
+
+![Mobile Homepage](./screenshots/mobile-home.png)
+_Fully responsive mobile layout with optimized user experience_
+
+#### What is GPT-3 Section
+
+![Mobile What is GPT-3](./screenshots/mobile-whatisgpt3.png)
+_Mobile-optimized view of GPT-3 information and features_
+
+#### Case Studies Section
+
+![Mobile Case Studies](./screenshots/mobile-casestudies.png)
+_Responsive case studies section on mobile devices_
+
+#### OpenAI Possibilities
+
+![Mobile OpenAI](./screenshots/mobile-openai.png)
+_Mobile view showcasing OpenAI possibilities and potential_
+
+#### Library/Blog Section
+
+![Mobile Library](./screenshots/mobile-library.png)
+_Mobile-friendly blog and library section with easy navigation_
 
 ## 🛠 Tech Stack
 
@@ -167,28 +187,41 @@ Project_ReactGPT3/
 ├── public/
 │   ├── index.html          # Main HTML file
 │   ├── manifest.json       # PWA manifest
-│   └── assets/            # Static assets
+│   └── assets/             # Static assets
 ├── src/
-│   ├── components/        # Reusable components
-│   │   ├── navbar/        # Navigation bar
-│   │   ├── brand/         # Brand logos
-│   │   ├── cta/           # Call-to-action
-│   │   ├── feature/       # Feature cards
-│   │   ├── article/       # Blog articles
-│   │   └── scrollToTop/   # Scroll button
-│   ├── containers/        # Page sections
-│   │   ├── header/        # Hero section
-│   │   ├── whatGPT3/      # About section
-│   │   ├── features/      # Features section
-│   │   ├── possibility/   # Possibilities section
-│   │   ├── blog/          # Blog section
-│   │   └── footer/        # Footer section
-│   ├── assets/           # Images and media
-│   ├── App.js            # Main app component
-│   ├── App.css           # Global styles
-│   └── index.js          # Entry point
-└── README.md             # This file
+│   ├── components/         # Reusable UI components
+│   │   ├── navbar/         # Navigation bar component
+│   │   ├── brand/          # Brand logos component
+│   │   ├── cta/            # Call-to-action component
+│   │   ├── feature/        # Feature card component
+│   │   ├── article/        # Blog article component
+│   │   ├── scrollToTop/    # Scroll-to-top button
+│   │   └── index.js        # Component exports
+│   ├── containers/         # Page section components
+│   │   ├── header/         # Hero section
+│   │   ├── whatGPT3/       # About GPT-3 section
+│   │   ├── features/       # Features section
+│   │   ├── possibility/    # Possibilities section
+│   │   ├── blog/           # Blog section
+│   │   ├── footer/         # Footer section
+│   │   └── index.js        # Container exports
+│   ├── constants/          # Shared data and constants
+│   │   └── index.js        # All constants, data, and asset imports
+│   ├── assets/             # Images and media files
+│   ├── App.js              # Main app component
+│   ├── App.css             # Global styles
+│   ├── index.js            # Application entry point
+│   └── index.css           # Base styles and CSS variables
+├── screenshots/             # Project screenshots
+└── README.md                # Project documentation
 ```
+
+### Structure Benefits
+
+- **Organized Components**: Clear separation between reusable components and page sections
+- **Centralized Constants**: All data, assets, and configuration in one place
+- **Easy Maintenance**: Modular structure makes updates and scaling simple
+- **Clean Imports**: Consistent import patterns throughout the codebase
 
 ## 🌟 Key Highlights
 
@@ -234,10 +267,12 @@ Project_ReactGPT3/
 
 **Developer:** Developer Maroof
 
-- **Portfolio Website:** [Your Portfolio URL]
-- **Email:** [Your Email]
-- **LinkedIn:** [Your LinkedIn]
-- **GitHub:** [Your GitHub]
+For inquiries, collaborations, or questions about this project, please reach out:
+
+- **Portfolio Website:** https://www.developermaroof.com/
+- **Email:** maroof@developermaroof.com
+- **LinkedIn:** https://www.linkedin.com/in/developermaroof/
+- **GitHub:** https://github.com/developermaroof
 
 ---
 

@@ -1,11 +1,11 @@
 import React from "react";
-import possibilityImage from "../../assets/possibility.png";
+import { assets } from "../../constants";
 import "./possibility.css";
 
 const Possibility = () => (
   <section className="gpt3__possibility section__padding" id="possibility">
     <div className="gpt3__possibility-image">
-      <img src={possibilityImage} alt="AI Possibilities Visualization" loading="lazy" />
+      <img src={assets.possibility} alt="AI Possibilities Visualization" loading="lazy" />
     </div>
     <div className="gpt3__possibility-content">
       <h4>Request Early Access to Get Started</h4>

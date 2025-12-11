@@ -1,14 +1,14 @@
 import React from "react";
-import { google, slack, atlassian, dropbox, shopify } from "./import";
+import { brandLogos } from "../../constants";
 import "./brand.css";
 
 const Brand = () => {
   const brands = [
-    { name: "Google", img: google },
-    { name: "Slack", img: slack },
-    { name: "Atlassian", img: atlassian },
-    { name: "Dropbox", img: dropbox },
-    { name: "Shopify", img: shopify },
+    { name: "Google", img: brandLogos.google },
+    { name: "Slack", img: brandLogos.slack },
+    { name: "Atlassian", img: brandLogos.atlassian },
+    { name: "Dropbox", img: brandLogos.dropbox },
+    { name: "Shopify", img: brandLogos.shopify },
   ];
 
   return (

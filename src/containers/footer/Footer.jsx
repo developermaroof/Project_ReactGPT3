@@ -1,5 +1,5 @@
 import React from "react";
-import gpt3Logo from "../../assets/logo.svg";
+import { assets } from "../../constants";
 import "./footer.css";
 
 const Footer = () => {
@@ -26,7 +26,7 @@ const Footer = () => {
       <div className="gpt3__footer-links">
         <div className="gpt3__footer-links_logo">
           <a href="#home" onClick={handleScrollToTop} aria-label="Home">
-            <img src={gpt3Logo} alt="GPT-3 Logo" />
+            <img src={assets.logo} alt="GPT-3 Logo" />
           </a>
           <p>
             Building the future of AI, one innovation at a time. <br /> All Rights Reserved

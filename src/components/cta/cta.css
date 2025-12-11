@@ -49,11 +49,21 @@
   line-height: 30px;
   padding: 0.5rem 1rem;
   border-radius: 2rem;
-
   border: none;
   outline: none;
   cursor: pointer;
   min-width: 150px;
+  transition: all 0.3s ease;
+}
+
+.gpt3__cta-btn button:hover {
+  background: #1a1a1a;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.gpt3__cta-btn button:active {
+  transform: translateY(0);
 }
 
 @media screen and (max-width: 650px) {

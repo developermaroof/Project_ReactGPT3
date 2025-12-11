@@ -4,8 +4,16 @@
   justify-content: space-between;
   align-items: flex-start;
   flex-direction: row;
-
   margin: 1rem;
+  padding: 1.5rem;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  background: transparent;
+}
+
+.gpt3__features-container__feature:hover {
+  background: rgba(255, 255, 255, 0.03);
+  transform: translateX(5px);
 }
 
 .gpt3__features-container__feature-title {

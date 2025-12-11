@@ -1,10 +1,18 @@
 .gpt3__blog-container_article {
   width: 100%;
   height: 100%;
-
   display: flex;
   flex-direction: column;
   background: var(--color-footer);
+  transition: all 0.3s ease;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.gpt3__blog-container_article:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  background: rgba(3, 27, 52, 0.8);
 }
 
 .gpt3__blog-container_article-image {
@@ -13,9 +21,18 @@
   background: var(--color-bg);
 }
 
+.gpt3__blog-container_article-image {
+  overflow: hidden;
+}
+
 .gpt3__blog-container_article-image img {
   width: 100%;
   height: 100%;
+  transition: transform 0.5s ease;
+}
+
+.gpt3__blog-container_article:hover .gpt3__blog-container_article-image img {
+  transform: scale(1.1);
 }
 
 .gpt3__blog-container_article-content {
@@ -49,6 +66,19 @@
 
 .gpt3__blog-container_article-content p:last-child {
   cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.gpt3__blog-container_article-content p:last-child:hover {
+  color: var(--color-subtext);
+}
+
+.gpt3__blog-container_article-content h3 {
+  transition: color 0.3s ease;
+}
+
+.gpt3__blog-container_article:hover .gpt3__blog-container_article-content h3 {
+  color: var(--color-subtext);
 }
 
 @media screen and (max-width: 550px) {

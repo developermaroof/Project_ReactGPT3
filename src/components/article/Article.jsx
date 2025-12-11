@@ -2,9 +2,9 @@ import React from "react";
 import "./article.css";
 
 const Article = ({ imgUrl, date, text }) => (
-  <div className="gpt3__blog-container_article">
+  <article className="gpt3__blog-container_article">
     <div className="gpt3__blog-container_article-image">
-      <img src={imgUrl} alt="blog_image" />
+      <img src={imgUrl} alt={text.substring(0, 50) + "..."} loading="lazy" />
     </div>
     <div className="gpt3__blog-container_article-content">
       <div>
@@ -13,7 +13,7 @@ const Article = ({ imgUrl, date, text }) => (
       </div>
       <p>Read Full Article</p>
     </div>
-  </div>
+  </article>
 );
 
 export default Article;

@@ -4,25 +4,25 @@ import "./features.css";
 
 const featuresData = [
   {
-    title: "Improving end distrusts instantly",
-    text: "From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded.",
+    title: "Advanced Natural Language Processing",
+    text: "Experience cutting-edge NLP capabilities that understand context, nuance, and intent. GPT-3 processes and generates human-like text with unprecedented accuracy, making it perfect for content creation, translation, and communication.",
   },
   {
-    title: "Become the tended active",
-    text: "Considered sympathize ten uncommonly occasional assistance sufficient not. Letter of on become he tended active enable to.",
+    title: "Seamless Integration & API Access",
+    text: "Integrate GPT-3 effortlessly into your existing applications with our robust API. Build powerful AI features quickly with comprehensive documentation, developer tools, and dedicated support to accelerate your development process.",
   },
   {
-    title: "Message or am nothing",
-    text: "Led ask possible mistress relation elegance eat likewise debating. By message or am nothing amongst chiefly address.",
+    title: "Scalable & Enterprise-Ready",
+    text: "Deploy AI solutions that scale with your business needs. From startups to enterprise-level applications, GPT-3 provides reliable performance, high availability, and the flexibility to handle projects of any size.",
   },
   {
-    title: "Really boy law county",
-    text: "Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush..",
+    title: "Continuous Learning & Updates",
+    text: "Stay ahead with regular model updates and improvements. Our team continuously enhances GPT-3's capabilities, ensuring you always have access to the latest AI advancements and best-in-class performance.",
   },
 ];
 
 const Features = () => (
-  <div className="gpt3__features section__padding" id="features">
+  <section className="gpt3__features section__padding" id="features">
     <div className="gpt3__features-heading">
       <h1 className="gradient__text">
         The Future is Now and You Just Need to Realize It. Step into Future
@@ -35,7 +35,7 @@ const Features = () => (
         <Feature title={item.title} text={item.text} key={item.title + index} />
       ))}
     </div>
-  </div>
+  </section>
 );
 
 export default Features;

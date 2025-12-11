@@ -8,14 +8,14 @@ import {
   WhatGPT3,
   Header,
 } from "./containers";
-import { CTA, Brand, Navbar } from "./components";
+import { CTA, Brand, Navbar, ScrollToTop } from "./components";
 import "./App.css";
 
 const App = () => {
   return (
     <div className="App">
+      <Navbar />
       <div className="gradient__bg">
-        <Navbar />
         <Header />
       </div>
       <Brand />
@@ -25,6 +25,7 @@ const App = () => {
       <CTA />
       <Blog />
       <Footer />
+      <ScrollToTop />
     </div>
   );
 };
